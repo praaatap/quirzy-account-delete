@@ -248,6 +248,7 @@ function DeleteAccountPage() {
                         {session.user.name?.charAt(0).toUpperCase() || "U"}
                       </div>
                     )}
+                    
                     <div>
                       <p className="font-semibold">{session.user.name || "User"}</p>
                       <p className={`text-sm ${isDark ? 'text-[#a1a1aa]' : 'text-[#71717a]'}`}>{session.user.email}</p>
